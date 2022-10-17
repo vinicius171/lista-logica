@@ -1,3 +1,5 @@
+by: Vinicius silva tadeu.
+
 1)
 a)não
 b)sim, P∧Q → Q↔P v ¬¬R
