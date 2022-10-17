@@ -1,0 +1,334 @@
+1)
+a)não
+b)sim, P∧Q → Q↔P v ¬¬R
+c)sim
+d)não
+e)sim, P∧Q → Q↔¬R
+
+2)a) sim, os simbolos de pontuação são utilizados para separar as formulas e não dificultar a interpretação.
+
+b) Símbolos de pontuação, Símbolos de valor verdade, Símbolos proposicionais e conectivos proposicionais.
+
+c) não, toda forma com conectivo possui simbolo de pntuação
+
+3)a) 11
+
+b) 13
+
+c) 9
+
+d) 5
+
+4)
+
+a) ((¬(¬P)) ↔ ((¬((¬(¬(P ∨ Q))) → R)) ∧ P))
+P ↔ (¬(P ∨ Q)→ R) ∧ P
+
+b) (¬P → (Q ∨ R)) ↔ ((P ∧ Q) ↔ (¬¬R ∨ ¬P))
+(¬P → (Q ∨ R)) ↔ (P ∧ Q) ↔ (R ∨ ¬P)
+
+c) ((P ∨ Q) → (P → (¬Q)))
+P ∨ Q → (P → ¬Q)
+
+5)
+a) P ∨ ¬Q → R ↔ ¬R  
+
+(P∨ ¬Q)→R→ ¬R
+(P∨ ¬Q)→(R→ ¬R)
+(P∨(¬Q→R))→ ¬R
+P∨(¬Q→(R→ ¬R))
+P∨ ¬(Q→R→ ¬R)
+P∨ ¬Q→R→ ¬R
+
+b) Q → ¬P ∧ Q 
+
+Q→ ¬P∧Q
+Q→(¬P∧Q)
+Q→ ¬(P∧Q)
+
+(c) ¬P ∨ Q ↔ Q 
+
+¬P∨Q↔Q
+(¬P∨Q)↔Q
+¬(P∨Q)↔Q
+¬(P∨Q↔Q)
+
+6)...
+7)...
+
+9) por definição o símbolo de pontuação sempre abre e ("fecha"), ou seja a paridade é par.
+
+10. Seja H uma fórmula que não contém o conectivo ¬ .
+
+a) comp[H] e um numero impar
+
+b) comp[H] e o dobro do numero de conectivos de H mais um.
+
+
+===========//===============//===============//=================//==============//===========//==================//============//=========================//
+
+Cap. 2.
+
+
+
+1)a, b) o true e false podem ser ultilizados como simbolos proposicionais já o T e F são simbolos verdade
+
+2) a sintaxe se refere a conjuntos de simbolos que dão origem as formulas, estas serão interpretadas(ganhar um valor/sentido) a partir da semantica que fica responsavél
+pela analise do comportamento dos simbolos 
+
+
+3) Não. na logica para que uma disjunção seja verdadeira não e necessario nenhuma releção entre suas alternativas
+
+4)a)
+	I[H]=T, I[Q]=T ou  I[P]=F e I[Q]=F
+
+b)
+	I[H]=T ↔ I[Q]=T
+
+c)
+	I[H]=T pois I[P] pode assumir o valor true ou false que a formula cotinuara vedadeira
+
+d)	
+	I[P] pode assumir o valor true ou false que a formula cotinuara vedadeira
+
+e)
+	I[H]=F
+
+
+5)a)	-----------------------------------------------------------
+	| p | Q | ¬P| (P → Q)  |  (¬P ∨ Q) | (¬P ∨ Q) ↔ (P → Q)   |
+	| T | T | F |    T     |     T     |          T           |
+	| T | F | F |    T     |     F     |          F           |
+	| F | T | T |    F     |     T     |          F           |
+	| F | F | T |    T     |     T     |          T           |
+	-----------------------------------------------------------
+b)
+	-----------------------------------------------------------------------------
+	| p | Q | R | (Q → R) |  (P → R)  | P → ((Q → R) → ((P → R) → (P → R)))     |
+	| T | T | T |    T    |     T     |                  T                      |
+	| T | T | F |    F    |     F     |                  F                      |
+	| T | F | T |    T    |     T     |                  T                      |
+	| T | F | F |    T    |     F     |                  F                      |
+	| F | T | T |    T    |     T     |                  T                      |
+	| F | F | T |    T    |     T     |                  T                      |
+	| F | T | F |    F    |     T     |                  T                      |
+	| F | F | F |    T    |     T     |                  T                      |
+	-----------------------------------------------------------------------------
+
+c)
+	------------------------------------------
+	| p | ¬Q| ¬P| (P → ¬Q) | (P → ¬Q) ↔ ¬P   |  
+	| T | T | F |    T     |         F       |
+	| T | F | F |    T     |         F       | 
+	| F | T | T |    F     |         T       |
+	| F | F | T |    T     |         T       |
+	------------------------------------------
+
+d)
+	---------------------
+	| ¬p| Q | (Q → ¬P)  |
+	| T | T |     T     |
+	| T | F |     F     |
+	| F | T |     T     |
+	| F | F |     T     |
+	---------------------
+
+e)
+	---------------------------------------------------------------------
+	| p | Q | R | (Q → R) |  (P ∧ Q)  | (P → (Q → R)) ↔ ((P ∧ Q) → R)   |
+	| T | T | T |    T    |     T     |                  T              |
+	| T | T | F |    F    |     T     |                  F              |
+	| T | F | T |    T    |     F     |                  T              |
+	| T | F | F |    T    |     F     |                  T              |
+	| F | T | T |    T    |     F     |                  F              |
+	| F | F | T |    T    |     F     |                  T              |
+	| F | T | F |    F    |     F     |                  T              |
+	| F | F | F |    T    |     F     |                  T              |
+	---------------------------------------------------------------------
+	
+f)
+	--------------------------------------------------------
+	| R | P | ¬P| (R ∧ ¬P) | (P ∧ R) |  (R ∧ ¬P) ↔ (P ∧ R) |
+	| T | T | F |    F     |    T    |            F         |
+	| T | F | T |    T     |    F    |            F         |
+	| F | T | F |    F     |    F    |            T         |
+	| F | F | T |    F     |    F    |            T         |
+	---------------------------------------------------------
+
+
+g)
+
+	----------------------------------------------------
+	| P | Q | (P → Q) | (P ∧ Q) ↔ P) |  (P ∨ Q) ↔ Q)   |
+	| T | T |    T     |       T      |        T       |
+	| T | F |    F     |       F      |        F       |      
+	| F | T |    T     |       T      |        T       |       
+	| F | F |    T     |       F      |        T       |  
+	----------------------------------------------------
+
+
+h)
+	------------------------------------
+	| FALSE | Q | R | (false → Q) ↔ R  | 
+	|   F   | T | T |         T        |   
+	|   F   | T | F |         F        |        
+	|   F   | F | T |         T        |      
+	|   F   | F | F |         F        |  
+	------------------------------------
+
+
+
+i)
+	------------------------
+	|  TRUE | Q | true → Q | 
+	|   T   | T |     T    |   
+	|   T   | T |     T    |        
+	|   T   | F |     F    |      
+	|   T   | F |     F    |   
+	------------------------
+	
+
+j)
+	------------------------------------
+	| FALSE | P | R | (P → false) ↔ R  | 
+	|   F   | T | T |         F        |   
+	|   F   | T | F |         T        |        
+	|   F   | F | T |         F        |      
+	|   F   | F | F |         F        | 
+	------------------------------------
+	
+
+k) 
+	------------------------
+	|  TRUE | P | P → true | 
+	|   T   | T |     T    |   
+	|   T   | T |     T    |        
+	|   T   | F |     F    |      
+	|   T   | F |     F    |
+	------------------------
+
+
+
+6) ... 
+
+
+7)a) false
+
+b) true
+
+c)true
+
+d)se I[R]= T, true
+
+e)true
+
+\\-----\\
+
+a) sera true se e somente se I[¬P]=T e I[Q]=T
+
+b) para ser true I[P]=T e/ou I[¬Q]=T.
+
+c) para ser true I[¬P]=T e I[Q]=T
+
+d) é true se I[R]=T , I[¬P]=T e I[Q]=T  
+
+e) para ser true I[R]=T e/ou I[¬P]=T e I[Q]=T
+
+8)a) se I[P] = F e I[Q]=T a formula de I[H]=F
+
+b) se I[P] = T e I[Q]=T a formula de I[H]=T
+
+10)
+a) José virá à festa e Maria não gostará, ou José não virá à festa e Maria
+gostará da festa.
+
+P = jose vira a festa Q= maria nn gostara ¬P= jose nao vira a festa ¬Q = maria gotara
+
+(P → Q) ∧ (¬P → ¬Q)
+
+b) A novela será exibida, a menos que seja exibido o programa político.
+
+p = novela sera exibida  R = exibido programa politico 
+
+P ↔ R
+
+c) Se chover, irei para casa, caso contrário, irei no escritório.
+
+P= se chover Q = irei a casa R= irei no escritorio
+
+(P → Q) → (¬P → R)
+
+d) Se Maria é bonita, inteligente e sensível e se Rodrigo ama Maria, então
+ele é feliz.
+
+Q = se Se Maria é bonita, inteligente e sensível P= Rodrigo ama Maria R= ele é feliz.
+
+(Q ∧ P) → R
+
+e) Se sr. Oscar é feliz, sra. Oscar é infeliz, e se sra. Oscar é feliz, sr. Oscar
+é infeliz.
+
+P= Se sr. Oscar é feliz Q= sra. Oscar é infeliz
+
+(P → Q) → (¬P → ¬Q)
+
+f) Maurício virá à festa e Kátia não virá ou Maurício não virá à festa e
+Kátia ficará infeliz.
+
+P= Maurício virá à festa Q= Kátia não virá R= ficara infeliz
+
+(P → Q) v ((¬P→Q)→R)
+
+
+
+12) )
+(a) Possivelmente, irei ao cinema.
+
+(b) Fui gordo, hoje sou magro.
+
+	Q= fui gordo P=  hoje sou magro  P → Q
+
+(c) Existe no curso de Ciência da Computação um aluno admirado por todos.
+
+	
+
+(d) Existe um aluno em minha sala que não gosta de nenhum colega.
+
+Q = Existe um aluno em minha sala  R= não gosta de nenhum colega.
+
+(e) Existe aluno de Ciência da Computação que é detestado por seus colegas.
+
+Q=  Existe aluno de Ciência da Computação P= detestado por seus colegas
+
+(f) Necessariamente algum político é desonesto.
+
+
+
+(g) Amanhã irei ao cinema e depois irei ao teatro.
+
+	P= Amanhã irei ao cinema Q= depois irei ao teatro P^Q
+
+(h) Quase todo político é desonesto.
+
+
+
+(i) Adalton sempre foi amigo de João Augusto.
+
+	P= Adalton sempre foi, Q=amigo de João Augusto	P->Q
+
+(j) Toda regra tem exceção.
+
+	P= Toda regra tem exceção
+
+(k) Quase todo funcionário da Sigma é um talento.
+
+	Q=todo funcionário da Sigma, P=é um talento Q->P
+
+(l) Poucos funcionários da Sigma não são empreendedores.
+
+	P=Poucos funcionários da Sigma , Q=não são empreendedores P^Q
+
+(m) O presidente da Sigma é admirado por seus colaboradores
+
+
+
