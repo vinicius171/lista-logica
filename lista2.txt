@@ -1,0 +1,32 @@
+1)a) sim
+b)verdade pela definição de tautlogia temos que os resultados da intepretação de A como verdadeiras logo a negação ira acarretar no resltado falso nas interepretações
+c)não
+d) sim
+e)sim
+f) sim
+
+2)
+a) satisfativel
+b) tautologia
+c) satisfativel
+d)tautologia
+e)tautologia
+f)satisfativel
+g)contraditoria
+h)tautologia
+
+3) satisfativel
+
+5) P->Q
+b) P v Q
+c) (P^Q)v R
+d)~P^~Q
+e) P->Q ^ R
+
+6)
+a) ~p é falso e o se e somente se é verdadeiro
+b)tautologia
+c)
+d)
+e)tautologia
+f)tautologia
