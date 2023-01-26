@@ -1,0 +1,58 @@
+1. Considere P(x) como o predicado “x <= 4”. Quais são os valores verdade das proposições
+abaixo?
+a) P(0) True
+b) P(4) True
+c) P(6) False
+
+2. Considere P(x) como o predicado “a palavra x contém a letra ‘a’.”. Quais são os valores
+verdade das proposições abaixo?
+a) P(orange) True
+b) P(lemon) False
+c) P(true) False
+d) P(false) True
+
+3. Considere Q(x,y) como o predicado “x é a capital de y”. Quais são os valores verdade das
+proposições abaixo?
+a) Q(Denver, Colorado) True
+b) Q(Detroit, Michigan) True
+c) Q(Massachusetts, Boston) False
+d) Q(Nova York, Nova York) True
+
+4. Constate o valor de x depois que o comando if P(x) then x:=1 for executada, em que P(x) é a
+proposição “x>1”, se o valor de x, quando essa proposição for alcançada, for
+a) x = 0 False 
+b) x = 1 True	
+c) x = 2 True
+
+5. Considere P(x) como o predicado “x = x²”. Se o domínio forem os números inteiros, quais
+serão os valores-verdade?
+a) P(0) True
+b) P(1) True
+c) P(2) False
+d) P(-1) false
+e) ∃x P(x) True
+f) ∀x P(x) False
+
+6. Considere Q(x) como o predicado “(x+1) > 2x”. Se o domínio forem os números inteiros,
+quais serão os valores-verdade?
+a) Q(0) false
+b) Q(-1) false
+c) Q(2) true
+d) ∃x Q(x) false
+e) ∀x Q(x) false
+f) ∃x ~Q(x) true
+g) ∀x ~Q(x) false
+
+7. Determine o valor verdade de cada uma destas proposições, se o domínio forem todos os
+números inteiros.
+a) ∀n ((n+1) > n) True
+b) ∃n (2n = 3n) false
+c) ∃n (n = -n) true
+d) ∀n (n2 >= n) true
+
+8. Determine o valor verdade de cada uma destas proposições, se o domínio forem todos os
+números reais.
+a) ∃x (x3 = -1) true
+b) ∃x (x4 < x2) true
+c) ∀x ((-x)2 = x2) false
+d) ∀x (2x > x) true
